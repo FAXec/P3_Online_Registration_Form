@@ -1,0 +1,96 @@
+* {
+  box-sizing: border-box;
+  color: #2d3945;
+  font-family: "Merriweather", sans-serif;
+}
+header h1 {
+  border: 2px solid black;
+  background-color: #2d3945;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 1.6em;
+  padding: 1em;
+  margin: 0 0;
+}
+header h2 {
+  text-align: center;
+  font-size: 23px;
+}
+
+header p {
+  text-align: center;
+}
+
+.first_separation {
+  border-top: 7px solid #2d3945;
+  margin-bottom: 0;
+}
+
+.second_separation,
+.thrid_separation {
+  border-top: 3px solid #2d3945;
+}
+
+.second_separation {
+  margin-top: 0;
+}
+.flex_pair {
+  display: flex;
+  flex-direction: column;
+}
+
+input,
+textarea {
+  border: 1px solid white;
+  background-color: #eff0f1;
+  padding: 1.5em;
+}
+
+::placeholder {
+  text-align: right;
+}
+
+input:focus,
+textarea:focus {
+  background: floralwhite;
+}
+
+legend {
+  font-weight: bold;
+  font-size: 1.5em;
+  text-transform: capitalize;
+}
+
+.newsletter_format {
+  margin-top: 2em;
+  margin-bottom: 0;
+}
+
+textarea {
+  margin-top: 1em;
+}
+
+.box_container,
+.radio {
+  position: relative;
+}
+
+.submit {
+  display: block;
+  border: 1px solid white;
+  background-color: #4ebbb5;
+  color: white;
+  font-size: 1.5em;
+  margin: 1em auto;
+  padding: 1em 2em;
+  font-weight: bold;
+  border-radius: 0.5em;
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  font-size: 1em;
+  text-transform: capitalize;
+}
