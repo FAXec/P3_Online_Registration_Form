@@ -5,6 +5,15 @@
   margin: 0px;
 }
 
+input,
+textarea,
+select,
+fieldset {
+  border: none;
+  outline: none;
+  box-shadow: none;
+}
+
 header h1 {
   border: 2px solid black;
   background-color: #2d3945;
@@ -27,19 +36,19 @@ header p {
   margin-bottom: 1em;
 }
 
-.first_separation {
-  border-top: 7px solid #2d3945;
-  margin-bottom: 0;
+.first_line {
+  border-bottom: 7px solid #2d3945;
+  width: 90%;
+  margin: 3px auto;
 }
 
-.second_separation,
-.thrid_separation {
-  border-top: 3px solid #2d3945;
+.second_line,
+.third_line {
+  border-bottom: 3px solid #2d3945;
+  width: 90%;
+  margin: auto;
 }
 
-.second_separation {
-  margin-top: 0;
-}
 .flex_pair {
   display: flex;
   flex-direction: column;
@@ -75,11 +84,7 @@ textarea {
   padding: 1.5em;
   border-radius: 4px;
   transition: background-color 1s ease-in-out;
-  
- }
- 
-
-  }
+}
 
 ::placeholder {
   text-align: right;
@@ -102,6 +107,14 @@ fieldset p {
 }
 #html_format {
   margin-top: 15px;
+}
+
+#select_state {
+  height: 50px;
+  border-radius: 5px;
+  border: 1px solid black;
+  background-color: #eff0f1;
+  transition: background-color 1s ease-in-out;
 }
 
 .newsletter_format {
@@ -154,6 +167,11 @@ footer {
     margin: auto 0;
     height: 50px;
   }
+  #select_state {
+    width: 75%;
+    margin-top: 1em;
+  }
+
   #zip {
     width: 50%;
   }
