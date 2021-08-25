@@ -60,6 +60,7 @@ header p {
 .contact_info {
   margin-top: 20px;
 }
+
 label {
   padding: 20px 0;
 }
@@ -165,7 +166,6 @@ footer {
   }
 
   input {
-    flex-grow: 1;
     flex-basis: 75%;
     margin-top: 20px;
   }
@@ -178,11 +178,11 @@ footer {
   #select_state {
     width: 75%;
     margin-top: 1em;
-    height: 55px;
+    height: 56px;
   }
 
   #zip {
-    width: 25%;
+    max-width: 25%;
   }
 
   .topics_wrapper {
