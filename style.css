@@ -182,7 +182,7 @@ footer {
   }
 
   #zip {
-    max-width: 25%;
+    flex-basis: 25%;
   }
 
   .topics_wrapper {
